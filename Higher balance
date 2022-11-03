@@ -1,0 +1,14 @@
+public class Main
+{
+    public static void main (String[] args) {
+    int stanley = 243;
+    int ademide = 334;
+    
+    if (stanley > ademide){
+        System.out.println("stanley has a higher balance");
+    }
+    else{
+        System.out.println("ademide has a higher balance");
+    }
+}
+}

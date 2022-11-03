@@ -1,0 +1,11 @@
+public class Main
+{
+    public static void main(String [] args){
+        int ademide = 334;
+        
+        
+        
+                System.out.println("ademide's balance is "+ ademide + ".");
+                
+    }
+}

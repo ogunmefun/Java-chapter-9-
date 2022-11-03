@@ -1,0 +1,31 @@
+    public static void main(String[] args) {
+       int n = 8;
+switch (n) {
+case 1:
+System.out.println("Ademide's balance is 334.");
+break;
+case 2:
+System.out.println("James's balance is 273.");
+break;
+case 3:
+System.out.println("Stanley's balance is 243");
+break;
+case 4:
+System.out.println("Zeyana's balance is 412");
+break;
+case 5:
+System.out.println("Hanaa's balance is 275");
+break;
+case 6:
+System.out.println("Isaiah's balance is 388");
+break;
+case 7:
+System.out.println("Juliana's balance is 393");
+break;
+case 8:
+System.out.println("Mitchell's balance is 402");
+break;
+default:
+break;
+}
+    }

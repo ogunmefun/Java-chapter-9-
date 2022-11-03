@@ -1,4 +1,6 @@
-    public static void main(String[] args) {
+public class Main
+{
+      public static void main(String[] args) {
        int n = 8;
 switch (n) {
 case 1:
@@ -27,5 +29,6 @@ System.out.println("Mitchell's balance is 402");
 break;
 default:
 break;
+ }
 }
-    }
+ }

@@ -1,0 +1,16 @@
+var numbers = [273,278,329,445,402,388,275,243,334,412,393,299,343,275,355];
+var sum=0;
+var avg = 0;
+var al = ['James', 'Rhyland', 'Janae', 'Ethan', 'Mitchell', 'Isaiah', 'Chanord', 'Stanley', 'Ademide', 'Zeyana', 'Juliana', 'George', 'Averyona', 'Hanna', 'Jaiden']
+
+for(var i = 0; i < numbers.length; i++)
+{
+  sum = sum + numbers[i];
+}
+avg = sum / numbers.length;	
+console.log(avg);
+
+for( var i = 0; i < al.length; i++) {
+  if(numbers[i] > avg)
+    console.log(al[i] + ' with a balance of '+ numbers[i] + ' is greater than average.');
+  }
